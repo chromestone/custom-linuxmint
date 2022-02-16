@@ -1,0 +1,11 @@
+[Unit]
+Description=Lightsaber Sound
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/lightdm/myenter.sh
+RemainAfterExit=yes
+ExecStop=/usr/share/lightdm/myexit.sh
+
+[Install]
+WantedBy=multi-user.target

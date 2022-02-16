@@ -1,0 +1,1 @@
+alias fanctl='sudo ~/Documents/fanctl.sh'

@@ -1,0 +1,8 @@
+[Unit]
+Description=Sleep When Lid Closed
+
+[Service]
+Type=simple
+ExecStart=/usr/share/lightdm/lidclose.sh
+
+[Install]

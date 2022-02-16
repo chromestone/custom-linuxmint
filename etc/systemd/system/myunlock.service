@@ -1,0 +1,8 @@
+[Unit]
+Description=Sound When Unlocked
+
+[Service]
+Type=simple
+ExecStart=/usr/share/lightdm/myunlock.sh
+
+[Install]
